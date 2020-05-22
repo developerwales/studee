@@ -13,6 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('searchforms.country');
 });
+
+Route::get('/country/search','SearchForms\CountrySearchController@search')->name('country.search');
+
+
