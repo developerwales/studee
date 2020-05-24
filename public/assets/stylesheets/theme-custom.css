@@ -1,0 +1,9 @@
+
+.content-body{
+    margin-left: 0px !important;
+}
+
+html.fixed .page-header{
+
+    left:0px !important
+}
