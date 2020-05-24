@@ -77,7 +77,7 @@
                             <h2 class="panel-title">Search Country Information</h2>
                         </header>
                         <div class="panel-body">
-                            <form class="form-horizontal form-bordered" id="country_search_form" method="POST" name="country_search_form"  action="/country/search" >
+                            <form  class="form-horizontal form-bordered" id="country_search_form" method="GET" name="country_search_form"  action="/country/search" >
 
                                 <div class="form-group form_errors" id="messageBox">
                                     <div>
@@ -94,14 +94,14 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="alpha2" class="col-md-3 control-label"> ISO 3166-1 2-letter Country Code e.g (GB)</label>
-                                    <div class="col-md-7">
+                                    <div class="col-md-6">
                                         <input  data-field="ISO 3166-1 2-letter Country Code"  value="" class="form-control input-group inputTag" id="alpha2"  data-max-chars="2"    name="alpha2"  />
 
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label for="alpha3" class="col-md-3 control-label"> ISO 3166-1 3-letter Country Code e.g (GBR)</label>
-                                    <div class="col-md-7">
+                                    <div class="col-md-6">
                                         <input value="" data-field="ISO 3166-1 3-letter Country Code" class="form-control input-group inputTag" id="alpha3"   data-max-chars="3"      name="alpha3"   />
 
                                     </div>
